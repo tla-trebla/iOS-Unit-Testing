@@ -60,6 +60,9 @@ class BullsEyeTests: XCTestCase {
     
     // when
     sut.check(guess: guess)
+    
+    // then
+    XCTAssertEqual(sut.scoreRound, 95, "Score computed from guess is wrong")
   }
 
 }
