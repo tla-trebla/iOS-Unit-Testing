@@ -44,7 +44,8 @@ class BullsEyeTests: XCTestCase {
     }
   
   func testScoreIsComputedWhenGuessIsHigherThanTarget() {
-    
+    // given
+    let guess = sut.targetValue + 5
   }
 
 }
