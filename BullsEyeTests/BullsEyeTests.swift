@@ -42,5 +42,9 @@ class BullsEyeTests: XCTestCase {
       sut = nil
       try super.tearDownWithError()
     }
+  
+  func testScoreIsComputedWhenGuessIsHigherThanTarget() {
+    
+  }
 
 }
