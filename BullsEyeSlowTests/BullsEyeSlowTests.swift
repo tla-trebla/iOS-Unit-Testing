@@ -61,6 +61,8 @@ class BullsEyeSlowTests: XCTestCase {
         if statusCode == 200 {
           // 2
           promise.fulfill()
+        } else {
+          XCTFail("Status code: \(statusCode)")
         }
       }
     }
