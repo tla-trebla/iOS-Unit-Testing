@@ -70,5 +70,9 @@ class BullsEyeSlowTests: XCTestCase {
     // 3
     wait(for: [promise], timeout: 5)
   }
+  
+  func testApiCallCompletes() throws {
+    
+  }
 
 }
