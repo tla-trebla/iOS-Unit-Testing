@@ -48,6 +48,8 @@ class BullsEyeSlowTests: XCTestCase {
     // given
     let urlString = "http://www.randomnumberapi.com/api/v1.0/random?min=0&max=100&count=1"
     let url = URL(string: urlString)
+    // 1
+    let promise = expectation(description: "Status code: 200")
   }
 
 }
