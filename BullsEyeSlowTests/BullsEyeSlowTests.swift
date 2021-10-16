@@ -50,6 +50,11 @@ class BullsEyeSlowTests: XCTestCase {
     let url = URL(string: urlString)
     // 1
     let promise = expectation(description: "Status code: 200")
+    
+    // when
+    let dataTask = sut.dataTask(with: url) { _, response, error in
+      
+    }
   }
 
 }
