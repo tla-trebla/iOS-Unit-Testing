@@ -47,7 +47,7 @@ class BullsEyeSlowTests: XCTestCase {
   func testValidApiCallGetsHTTPStatusCode200() throws {
     // given
     let urlString = "http://www.randomnumberapi.com/api/v1.0/random?min=0&max=100&count=1"
-    let url = URL(string: urlString)
+    let url = URL(string: urlString)!
     // 1
     let promise = expectation(description: "Status code: 200")
     
@@ -66,6 +66,7 @@ class BullsEyeSlowTests: XCTestCase {
         }
       }
     }
+    
   }
 
 }
