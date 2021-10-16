@@ -67,6 +67,8 @@ class BullsEyeSlowTests: XCTestCase {
       }
     }
     dataTask.resume()
+    // 3
+    wait(for: [promise], timeout: 5)
   }
 
 }
