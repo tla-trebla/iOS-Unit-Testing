@@ -53,7 +53,11 @@ class BullsEyeSlowTests: XCTestCase {
     
     // when
     let dataTask = sut.dataTask(with: url) { _, response, error in
-      
+      // then
+      if let error = error {
+        XCTFail("Error: \(error.localizedDescription)")
+        return
+      }
     }
   }
 
