@@ -43,5 +43,9 @@ class BullsEyeSlowTests: XCTestCase {
     try super.tearDownWithError()
   }
 
+  // Asynchronous test: success fast, failure slow
+  func testValidApiCallGetsHTTPStatusCode200() throws {
+    
+  }
 
 }
