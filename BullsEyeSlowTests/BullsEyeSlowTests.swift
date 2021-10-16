@@ -57,6 +57,8 @@ class BullsEyeSlowTests: XCTestCase {
       if let error = error {
         XCTFail("Error: \(error.localizedDescription)")
         return
+      } else if let statusCode = (response as? HTTPURLResponse)?.statusCode {
+        
       }
     }
   }
