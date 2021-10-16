@@ -66,7 +66,7 @@ class BullsEyeSlowTests: XCTestCase {
         }
       }
     }
-    
+    dataTask.resume()
   }
 
 }
