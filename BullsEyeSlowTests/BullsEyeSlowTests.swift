@@ -46,7 +46,7 @@ class BullsEyeSlowTests: XCTestCase {
   // Asynchronous test: success fast, failure slow
   func testValidApiCallGetsHTTPStatusCode200() throws {
     // given
-    let urlString = "http://www.randomnumberapi.com/api/v1.0/random?min=0&max=100&count=1"
+    let urlString = "https://www.boredapi.com/api/activity"
     let url = URL(string: urlString)!
     // 1
     let promise = expectation(description: "Status code: 200")
