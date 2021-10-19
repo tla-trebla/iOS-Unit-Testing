@@ -32,7 +32,9 @@ import XCTest
 class MockUserDefaults: UserDefaults {
   var gameStyleChanged = 0
   override func set(_ value: Int, forKey defaultName: String) {
-    
+    if defaultName == "gameStyle" {
+      gameStyleChanged += 1
+    }
   }
   
 }
