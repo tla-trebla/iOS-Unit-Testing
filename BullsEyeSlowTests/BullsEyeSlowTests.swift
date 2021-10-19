@@ -78,6 +78,11 @@ class BullsEyeSlowTests: XCTestCase {
     let promise = expectation(description: "Completion handler invoked")
     var statusCode: Int?
     var responseCode: Error?
+    
+    // when
+    let dataTask = sut.dataTask(with: url) { _, response, error in
+      
+    }
   }
 
 }
