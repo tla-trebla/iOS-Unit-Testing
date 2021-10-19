@@ -51,7 +51,9 @@ class BullsEyeMockTests: XCTestCase {
   }
 
   override func tearDownWithError() throws {
-    
+    sut = nil
+    mockUserDefaults = nil
+    try super.tearDownWithError()
   }
 
     func testExample() throws {
