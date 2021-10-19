@@ -48,6 +48,7 @@ class BullsEyeFakeTests: XCTestCase {
     // 1
     let stubbedData = "[1]".data(using: .utf8)
     let urlString = "http://www.randomnumberapi.com/api/v1.0/random?min=0&max=100&count=1"
-    let url = URL(string: urlString)
+    let url = URL(string: urlString)!
+    let stubbedResponse = HTTPURLResponse(url: url, statusCode: 200, httpVersion: nil, headerFields: nil)
   }
 }
