@@ -45,7 +45,7 @@ class BullsEyeMockTests: XCTestCase {
   
   override func setUpWithError() throws {
     try super.setUpWithError()
-    sut = UIStoryboard(name: "Main", bundle: nil)
+    sut = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? ViewController
   }
 
     override func tearDownWithError() throws {
