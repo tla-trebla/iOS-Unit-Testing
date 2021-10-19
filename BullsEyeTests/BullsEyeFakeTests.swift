@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import XCTest
+@testable import BullsEye
 
 class BullsEyeFakeTests: XCTestCase {
 
