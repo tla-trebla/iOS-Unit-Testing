@@ -44,7 +44,8 @@ class BullsEyeMockTests: XCTestCase {
   var mockUserDefaults: MockUserDefaults!
   
   override func setUpWithError() throws {
-    
+    try super.setUpWithError()
+    sut = UIStoryboard(name: "Main", bundle: nil)
   }
 
     override func tearDownWithError() throws {
