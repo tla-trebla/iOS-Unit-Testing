@@ -64,5 +64,8 @@ class BullsEyeMockTests: XCTestCase {
     XCTAssertEqual(mockUserDefaults.gameStyleChanged, 0, "gameStyleChanged should be 0 before sendActions")
     segmentedControl.addTarget(sut, action: #selector(ViewController.chooseGameStyle(_:)), for: .valueChanged)
     segmentedControl.sendActions(for: .valueChanged)
+    
+    // then
+    XCTAssertEqual(mockUserDefaults.gameStyleChanged, 1, "gameStyle user defaults wasn't changed")
   }
 }
