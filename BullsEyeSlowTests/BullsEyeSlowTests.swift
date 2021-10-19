@@ -73,7 +73,7 @@ class BullsEyeSlowTests: XCTestCase {
   
   func testApiCallCompletes() throws {
     // given
-    let urlString = "http://www.randomnumberapi.com/test"
+    let urlString = "https://www.boredapi.com/api/test"
     
   }
 
