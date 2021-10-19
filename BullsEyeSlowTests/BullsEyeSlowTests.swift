@@ -83,6 +83,7 @@ class BullsEyeSlowTests: XCTestCase {
     let dataTask = sut.dataTask(with: url) { _, response, error in
       statusCode = (response as? HTTPURLResponse)?.statusCode
       responseError = error
+      promise.fulfill()
     }
   }
 
