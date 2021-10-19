@@ -44,6 +44,8 @@ class BullsEyeFakeTests: XCTestCase {
   }
   
   func testStartNewRoundUsesRandomValueFromApiRequest() {
-    
+    // given
+    // 1
+    let stubbedData = "[1]".data(using: .utf8)
   }
 }
