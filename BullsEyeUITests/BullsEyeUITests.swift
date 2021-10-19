@@ -40,6 +40,8 @@ class BullsEyeUITests: XCTestCase {
   }
   
   func testGameStyleSwitch() {
+    app.sliders["Slide"].tap()
+    app.staticTexts["Get as close as you can to: "].tap()
     
   }
 }
