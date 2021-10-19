@@ -34,8 +34,9 @@ class BullsEyeSlowTests: XCTestCase {
   var sut: URLSession!
   
   override func setUpWithError() throws {
-    try super.setUpWithError()
-    sut = URLSession(configuration: .default)
+      try super.setUpWithError()
+      sut = URLSession(configuration: .default)
+      let networkMonitor = NetworkMonitor.shared
   }
 
   override func tearDownWithError() throws {
