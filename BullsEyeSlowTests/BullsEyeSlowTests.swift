@@ -46,7 +46,7 @@ class BullsEyeSlowTests: XCTestCase {
 
     // Asynchronous test: success fast, failure slow
     func testValidApiCallGetsHTTPStatusCode200() throws {
-      
+      try XCTSkipUnless(networkMonitor.isReachable, "Network connectivity needed for this test.")
       // given
       let urlString = "https://www.boredapi.com/api/activity"
       let url = URL(string: urlString)!
