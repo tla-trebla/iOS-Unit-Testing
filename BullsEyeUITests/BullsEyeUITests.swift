@@ -36,6 +36,7 @@ class BullsEyeUITests: XCTestCase {
     try super.setUpWithError()
     continueAfterFailure = false
     app = XCUIApplication()
+    app.launch()
   }
 
     func testExample() throws {
