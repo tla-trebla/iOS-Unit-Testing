@@ -56,7 +56,10 @@ class BullsEyeFakeTests: XCTestCase {
     
     // when
     sut.startNewRound {
-      
+      // then
+      // 2
+      XCTAssertEqual(self.sut.targetValue, 1)
+      promise.fulfill()
     }
   }
 }
