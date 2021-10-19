@@ -85,6 +85,7 @@ class BullsEyeSlowTests: XCTestCase {
       responseError = error
       promise.fulfill()
     }
+    dataTask.resume()
   }
 
 }
