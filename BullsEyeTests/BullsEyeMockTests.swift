@@ -57,6 +57,7 @@ class BullsEyeMockTests: XCTestCase {
   }
   
   func testGameStyleCanBeChanged() {
-    
+    // given
+    let segmentedControl = UISegmentedControl()
   }
 }
