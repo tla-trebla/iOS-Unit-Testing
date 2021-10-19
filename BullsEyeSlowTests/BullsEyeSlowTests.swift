@@ -77,11 +77,11 @@ class BullsEyeSlowTests: XCTestCase {
     let url = URL(string: urlString)!
     let promise = expectation(description: "Completion handler invoked")
     var statusCode: Int?
-    var responseCode: Error?
+    var responseError: Error?
     
     // when
     let dataTask = sut.dataTask(with: url) { _, response, error in
-      
+      statusCode = (response as? HTTPURLResponse)?.statusCode
     }
   }
 
