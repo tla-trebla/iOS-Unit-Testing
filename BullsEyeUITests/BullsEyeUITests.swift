@@ -38,4 +38,8 @@ class BullsEyeUITests: XCTestCase {
     app = XCUIApplication()
     app.launch()
   }
+  
+  func testGameStyleSwitch() {
+    
+  }
 }
