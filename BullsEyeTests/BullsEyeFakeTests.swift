@@ -61,5 +61,6 @@ class BullsEyeFakeTests: XCTestCase {
       XCTAssertEqual(self.sut.targetValue, 1)
       promise.fulfill()
     }
+    wait(for: [promise], timeout: 5)
   }
 }
