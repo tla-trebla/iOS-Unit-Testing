@@ -13,6 +13,7 @@
 		202D823E25D7D8A300778080 /* URLSessionStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202D823D25D7D8A300778080 /* URLSessionStub.swift */; };
 		5394F02521864DF5006E754C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5394F02321864DF4006E754C /* LaunchScreen.storyboard */; };
 		5E58448F271EF17E00FF0D59 /* BullsEyeFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58448E271EF17E00FF0D59 /* BullsEyeFakeTests.swift */; };
+		5E584491271F175900FF0D59 /* BullsEyeMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E584490271F175900FF0D59 /* BullsEyeMockTests.swift */; };
 		5E589664271AD97300EADD47 /* BullsEyeSlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E589663271AD97300EADD47 /* BullsEyeSlowTests.swift */; };
 		5ECDF1B92716C04000529403 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDF1B82716C04000529403 /* BullsEyeTests.swift */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		202D823D25D7D8A300778080 /* URLSessionStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionStub.swift; sourceTree = "<group>"; };
 		5394F02421864DF4006E754C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E58448E271EF17E00FF0D59 /* BullsEyeFakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BullsEyeFakeTests.swift; path = BullsEyeTests/BullsEyeFakeTests.swift; sourceTree = SOURCE_ROOT; };
+		5E584490271F175900FF0D59 /* BullsEyeMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BullsEyeMockTests.swift; path = BullsEyeTests/BullsEyeMockTests.swift; sourceTree = SOURCE_ROOT; };
 		5E589661271AD97200EADD47 /* BullsEyeSlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeSlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E589663271AD97300EADD47 /* BullsEyeSlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeSlowTests.swift; sourceTree = "<group>"; };
 		5ECDF1B62716C04000529403 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 		5E589662271AD97300EADD47 /* BullsEyeSlowTests */ = {
 			isa = PBXGroup;
 			children = (
+				5E584490271F175900FF0D59 /* BullsEyeMockTests.swift */,
 				5E58448E271EF17E00FF0D59 /* BullsEyeFakeTests.swift */,
 				5E589663271AD97300EADD47 /* BullsEyeSlowTests.swift */,
 			);
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E584491271F175900FF0D59 /* BullsEyeMockTests.swift in Sources */,
 				5ECDF1B92716C04000529403 /* BullsEyeTests.swift in Sources */,
 				5E58448F271EF17E00FF0D59 /* BullsEyeFakeTests.swift in Sources */,
 			);
