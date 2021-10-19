@@ -55,4 +55,8 @@ class BullsEyeMockTests: XCTestCase {
     mockUserDefaults = nil
     try super.tearDownWithError()
   }
+  
+  func testGameStyleCanBeChanged() {
+    
+  }
 }
