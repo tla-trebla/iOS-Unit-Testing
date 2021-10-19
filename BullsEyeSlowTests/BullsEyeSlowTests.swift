@@ -75,6 +75,7 @@ class BullsEyeSlowTests: XCTestCase {
     // given
     let urlString = "https://www.boredapi.com/api/test"
     let url = URL(string: urlString)!
+    let promise = expectation(description: "Completion handler invoked")
   }
 
 }
