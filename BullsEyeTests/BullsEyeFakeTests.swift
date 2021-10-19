@@ -51,5 +51,6 @@ class BullsEyeFakeTests: XCTestCase {
     let url = URL(string: urlString)!
     let stubbedResponse = HTTPURLResponse(url: url, statusCode: 200, httpVersion: nil, headerFields: nil)
     let urlSessionStub = URLSessionStub(data: stubbedData, response: stubbedResponse, error: nil)
+    sut.urlSession = urlSessionStub
   }
 }
