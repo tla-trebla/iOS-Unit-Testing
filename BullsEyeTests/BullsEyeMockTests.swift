@@ -59,5 +59,8 @@ class BullsEyeMockTests: XCTestCase {
   func testGameStyleCanBeChanged() {
     // given
     let segmentedControl = UISegmentedControl()
+    
+    // when
+    XCTAssertEqual(mockUserDefaults.gameStyleChanged, 0, "gameStyleChanged should be 0 before sendActions")
   }
 }
