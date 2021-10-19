@@ -30,7 +30,11 @@ import XCTest
 @testable import BullsEye
 
 class MockUserDefaults: UserDefaults {
-  <#code#>
+  var gameStyleChanged = 0
+  override func set(_ value: Int, forKey defaultName: String) {
+    
+  }
+  
 }
 
 class BullsEyeMockTests: XCTestCase {
