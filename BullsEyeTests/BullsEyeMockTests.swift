@@ -27,6 +27,11 @@
 /// THE SOFTWARE.
 
 import XCTest
+@testable import BullsEye
+
+class MockUserDefaults: UserDefaults {
+  <#code#>
+}
 
 class BullsEyeMockTests: XCTestCase {
 
