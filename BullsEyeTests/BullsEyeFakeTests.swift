@@ -43,4 +43,7 @@ class BullsEyeFakeTests: XCTestCase {
     try super.tearDownWithError()
   }
   
+  func testStartNewRoundUsesRandomValueFromApiRequest() {
+    
+  }
 }
