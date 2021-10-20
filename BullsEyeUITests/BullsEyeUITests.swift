@@ -45,5 +45,10 @@ class BullsEyeUITests: XCTestCase {
     let typeButton = app/*@START_MENU_TOKEN@*/.segmentedControls.buttons["Type"]/*[[".segmentedControls.buttons[\"Type\"]",".buttons[\"Type\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/
     let slideLabel = app.staticTexts["Get as close as you can to: "]
     let typeLabel = app.staticTexts["Guess where the slider is: "]
+    
+    // then
+    if slideButton.isSelected {
+      
+    }
   }
 }
