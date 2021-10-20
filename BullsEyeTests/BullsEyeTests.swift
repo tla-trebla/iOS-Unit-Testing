@@ -72,7 +72,7 @@ class BullsEyeTests: XCTestCase {
       XCTStorageMetric(),
       XCTMemoryMetric()
     ]) {
-      
+      sut.check(guess: 100)
     }
   }
 
