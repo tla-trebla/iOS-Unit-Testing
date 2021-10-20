@@ -42,7 +42,7 @@ class BullsEyeUITests: XCTestCase {
   func testGameStyleSwitch() {
     // given
     let slideButton = app/*@START_MENU_TOKEN@*/.segmentedControls.buttons["Slide"]/*[[".segmentedControls.buttons[\"Slide\"]",".buttons[\"Slide\"]"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/
-    app/*@START_MENU_TOKEN@*/.buttons["Type"]/*[[".segmentedControls.buttons[\"Type\"]",".buttons[\"Type\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+    let typeButton = app/*@START_MENU_TOKEN@*/.buttons["Type"]/*[[".segmentedControls.buttons[\"Type\"]",".buttons[\"Type\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
     app.staticTexts["Guess where the slider is: "].tap()
     slideButton.tap()
     app.staticTexts["Get as close as you can to: "].tap()
