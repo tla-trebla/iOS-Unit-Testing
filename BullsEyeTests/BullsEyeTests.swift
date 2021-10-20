@@ -70,6 +70,7 @@ class BullsEyeTests: XCTestCase {
       XCTClockMetric(),
       XCTCPUMetric(),
       XCTStorageMetric(),
+      XCTMemoryMetric()
     ]) {
       
     }
