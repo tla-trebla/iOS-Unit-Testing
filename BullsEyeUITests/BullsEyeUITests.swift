@@ -55,7 +55,8 @@ class BullsEyeUITests: XCTestCase {
       XCTAssertTrue(typeLabel.exists)
       XCTAssertFalse(slideLabel.exists)
     } else if typeButton.isSelected {
-      
+      XCTAssertTrue(typeLabel.exists)
+      XCTAssertFalse(slideLabel.exists)
     }
   }
 }
