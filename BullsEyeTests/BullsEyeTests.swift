@@ -64,5 +64,9 @@ class BullsEyeTests: XCTestCase {
     // then
     XCTAssertEqual(sut.scoreRound, 95, "Score computed from guess is wrong")
   }
+  
+  func testScoreIsComputedPerformance() {
+    
+  }
 
 }
