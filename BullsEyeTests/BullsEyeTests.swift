@@ -66,7 +66,11 @@ class BullsEyeTests: XCTestCase {
   }
   
   func testScoreIsComputedPerformance() {
-    
+    measure(metrics: [
+      XCTClockMetric(),
+    ]) {
+      
+    }
   }
 
 }
