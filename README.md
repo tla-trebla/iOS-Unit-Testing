@@ -5,7 +5,7 @@ Link: https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tut
 # Things I've Learned
 * Things to consider on what to test:
   * Individual part without dependency (state-based testing).
-  * How each part works together (integration testing).
+  * How each part works together in real-life environment (integration testing).
   * UI testing.
   * Bug fix.
 * Separate unit tests into different targets between state-based testing & slow testing (asynchronous).
